@@ -56,8 +56,9 @@ const questions = [
     
     
 },]
-startGame = () =>{
-    restQuestion = [...questions]
-    getNextQuestion()
-   }
-   //console.log(questions[2])
+let currentQuestion = {}
+let rightAnswer = true
+let questionCounter = 0
+let restQuestion = []
+//console.log(restQuestion)
+

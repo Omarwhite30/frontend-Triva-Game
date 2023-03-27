@@ -1,0 +1,47 @@
+// startGame = () =>{
+//    let rest = [...questions]
+//     getNextQuestion()
+//    }
+//    //console.log(questions[2])
+    
+//    const questionPool = Math.floor(Math.random() * rest.length)
+//    currentQuestion = rest[questionPool]
+//    question.innerHTML = currentQuestion.question
+
+//    answers.forEach(answer => {
+//        answer.innerHTML = currentQuestion ['choice' + Number]
+       
+// //    })
+
+// const answerkey = document.querySelectorAll(".answerkey") 
+
+
+
+
+
+
+
+// startGame = () =>{
+//     restQuestion = [...questions]
+//     getNextQuestion()
+//    }
+
+//    getNextQuestion = () =>{
+    
+
+
+//  }
+
+// function showQuestions(questions){
+//     questions.Element.innerText = questions.question
+//     questions.answers.forEach(answers=> {
+//         const button = document.querySelector('button')
+//         button.innerText = answers.innerText
+//         button.classList.add('')
+//         if(answers.correct){
+//          button.dataset.correct = answers.correct
+//          }
+//          button.addEventListener('click', selectAnswer)
+//          answerButtonElement.appendchild(button)
+//     })
+// }

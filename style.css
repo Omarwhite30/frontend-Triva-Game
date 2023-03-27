@@ -7,21 +7,23 @@ body{
       font-size: 4rem;
       text-align: center;
       background-color: black;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
   
   }
-    /* button */
+    /*Play now button */
     .button1 {
       border: none;
-      color: rgb(255, 255, 255);
+      color: rgb(71, 241, 25);
       padding: 40px 200px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
       font-size: 70px;
+      background-color: #000000;
       margin: 450px 325px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       /* hover over feature */
       cursor: pointer;
-      /* button end */
+      
     }
     
-    .button1 {background-color: #000000;}
