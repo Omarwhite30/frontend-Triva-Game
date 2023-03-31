@@ -1,22 +1,81 @@
-body{
-    background-color: rgb(5, 225, 53);
-}
-.container{
-    color: rgb(11, 11, 11);
-    text-align: center;
-    font-size: 10rem;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded;
 }
 
-.answers{
-    border: none;
-    color: rgba(0, 0, 0, 0.871);
-    padding: 40px 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-flexbox;
-    font-size: 40px;
-    margin: 60px 60px;
-    /* hover over feature */
-    cursor: crosshair;
-    /* button end */
-  }
+
+body {
+  
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(8, 172, 8);
+}
+
+body.correct {
+ color:yellow;
+}
+
+body.wrong {
+  color: red;
+}
+
+.container {
+  width: 800px;
+  max-width: 80%;
+  background-color: green;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn {
+  --hue: var(--hue-neutral);
+  border: 1px solid hsl(var(--hue), 100%, 30%);
+  background-color: black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+}
+
+.btn:hover {
+  border-color: black;
+}
+
+.btn.correct {
+  --hue: var(--hue-correct);
+  color: black;
+}
+
+.btn.wrong {
+  --hue: var(--hue-wrong);
+}
+
+.start-btn, .next-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}

@@ -11,19 +11,26 @@ body{
   
   }
     /*Play now button */
-    .button1 {
+    .button1{
       border: none;
       color: rgb(71, 241, 25);
-      padding: 40px 200px;
+      padding: 20px 200px;
       text-align: center;
       text-decoration: none;
-      display: inline-block;
+      
       font-size: 70px;
       background-color: #000000;
       margin: 450px 325px;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       /* hover over feature */
       cursor: pointer;
+      position: absolute;
+      top:420px;
+      left: 90px;
+            
+    }
+    .jets{
+      position: absolute;
+      left:100px;
       
     }
-    
